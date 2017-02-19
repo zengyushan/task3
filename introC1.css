@@ -1,0 +1,86 @@
+.html,body{
+    /*去除掉到浏览器边界的空档*/
+    margin:0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.top_div{
+    margin:0 auto;
+    width:100%;
+
+}
+.whole_div{
+    /*width加padding-bottom可以让高宽按比例变化*/
+    width:100%;
+    padding-bottom: 157.6%;
+    background-color: red;
+}
+.top_bar{
+    /*依照父元素宽度的比例*/
+    padding-top: 3.12%;
+    margin-left: 5.46%;
+}
+.top_bar img{
+    width:8.43%;
+    /*max-width: 54px;*/
+}
+.logo{
+    margin-top: 6.56%;
+    margin-left: 30.9%
+}
+.logo img{
+    width:36.87%;
+}
+.intro_word{
+    margin-top: 19.06%;
+    margin-left:14.37%;
+    margin-right:15.62%;
+    font-family: "宋体";
+    /*font-size: 30px;!*这里还没弄明白。。。。。。*!*/
+    font-size: 4vw;
+    color: #ffffff;
+}
+.two_icon{
+    margin-top: 28.12%;
+    margin-left: 19.06%;
+}
+.left{
+    float: left;
+    /*依照父元素two_icon的宽度设置一样的宽度*/
+    width:18.59%;
+    background-color: #09BE07;
+}
+.right{
+    float: left;
+    /*依照父元素two_icon的宽度设置一样的宽度*/
+    width:18.59%;
+    /*左边图片所在整体部分与右边的之间的距离*/
+    margin-left: 28.9%;
+    background-color: #68cdd5;
+}
+.two_icon img{
+    width:100%;
+    text-align: center;
+}
+.left_icon{
+    /*width:100%;*/
+    background-color: blanchedalmond;
+    align:center;
+    /*margin-left: 17px;*/
+}
+.left_name{
+    font-family: "宋体";
+    font-size: 4vw;
+    /*line-height: 54px;*/
+    color: #ffffff;
+    /*margin-top: 23px;*/
+}
+.right_icon{
+    background-color: chocolate;
+}
+.right_name{
+    color: #ffffff;
+    font-size: 4vw;
+}
